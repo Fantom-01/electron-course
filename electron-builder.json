@@ -1,8 +1,7 @@
 {
     "appId": "com.fantom.electron-course",
     "files": ["dist-electron", "dist-react"],
-    "extraResources": ["dist-electron/preload.cjs"],
-    "icon": "./icon.jpg",
+    "extraResources": ["dist-electron/preload.cjs", "src/assets/**"],
     "mac": {
         "target": "dmg"
     },
